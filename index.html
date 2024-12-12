@@ -1,36 +1,203 @@
 <!-- Testing HTML -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>akadiric portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="/project1/" class="nav-link">Project 1</a></li>
-            <li><a href="#project2" class="nav-link">Project 2</a></li>
-            <li><a href="#project3" class="nav-link">Project 3</a></li>
-        </ul>
-    </nav>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Aida's Portfolio</title>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+	</head>
+	<body>
+		<!-- Navigation Bar -->
+		<nav>
+			<ul>
+				<li><a href="#">Aida Kadiric</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#">Projects</a></li>
+			</ul>
+		</nav>
 
-    <section id="project1" class="project">
-        <h2>Project 1</h2>
-        <p>Description of project 1.</p>
-    </section>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Click on a project to learn more about it!</p>
+		<!-- Hero section -->
+		<section class="hero">
+			<h1>Hi, this is the Hero Section</h1>
+		</section>
 
-    <section id="project2" class="project">
-        <h2>Project 2</h2>
-        <p>Description of project 2.</p>
-    </section>
+		<!-- About section -->
+		<section
+			id="about"
+			class="about"
+		>
+			<h1>This this is the about section</h1>
+		</section>
 
-    <section id="project3" class="project">
-        <h2>Project 3</h2>
-        <p>Description of project 3.</p>
-    </section>
-</body>
+		<!-- Projects section -->
+		<section class="projects">
+			<h3 class="projects-title">PROJECTS</h3>
+			<div class="carousel-container">
+				<div class="carousel">
+					<div class="carousel-slide">
+						<div class="card">
+							<h2>Project 1</h2>
+							<p>Image Goes Here</p>
+							<p>This is the short description of the project.</p>
+							<a href="/project1/">
+								<button class="projects-button">See More</button>
+							</a>
+						</div>
+					</div>
+					<div class="carousel-slide">
+						<div class="card">
+							<h2>Project 2</h2>
+							<p>Image Goes Here</p>
+							<p>This is the short description of the project.</p>
+							<a href="/project2/">
+								<button class="projects-button">See More</button>
+							</a>
+						</div>
+					</div>
+					<div class="carousel-slide">
+						<div class="card">
+							<h2>Project 3</h2>
+							<p>Image Goes Here</p>
+							<p>This is the short description of the project.</p>
+							<button class="projects-button">See More</button>
+						</div>
+					</div>
+					<div class="carousel-slide">
+						<div class="card">
+							<h2>Project 4</h2>
+							<p>Image Goes Here</p>
+							<p>This is the short description of the project.</p>
+							<button class="projects-button">See More</button>
+						</div>
+					</div>
+					<div class="carousel-slide">
+						<div class="card">
+							<h2>Project 5</h2>
+							<p>Image Goes Here</p>
+							<p>This is the short description of the project.</p>
+							<button class="projects-button">See More</button>
+						</div>
+					</div>
+				</div>
+				<button
+					class="prev"
+					onclick="moveSlide(-1)"
+				>
+					<img
+						src="/arrow.svg"
+						alt="Arrow Left"
+						width="48"
+						height="48"
+					/>
+				</button>
+				<button
+					class="next"
+					onclick="moveSlide(1)"
+				>
+					<!-- <svg>
+						<use href="/arrow.svg#arrow-left"></use>
+					</svg> -->
+					<img
+						src="/arrow.svg"
+						alt="Arrow Left"
+						width="48"
+						height="48"
+					/>
+
+					<!-- <svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="48"
+						height="48"
+						fill="none"
+					>
+						<ellipse
+							cx="11.968"
+							cy="24.347"
+							fill="#FFF6EE"
+							rx="3.535"
+							ry="11.968"
+							transform="rotate(-90 11.968 24.347)"
+						/>
+						<ellipse
+							cx="36.032"
+							cy="24.347"
+							fill="#FFF6EE"
+							rx="3.535"
+							ry="11.968"
+							transform="rotate(-90 36.032 24.347)"
+						/>
+						<ellipse
+							cx="24.347"
+							cy="11.968"
+							fill="#FFF6EE"
+							rx="3.535"
+							ry="11.968"
+						/>
+						<ellipse
+							cx="16.816"
+							cy="16.816"
+							fill="#FFF6EE"
+							rx="3.535"
+							ry="11.968"
+							transform="rotate(-45 16.816 16.816)"
+						/>
+						<ellipse
+							cx="31.774"
+							cy="31.774"
+							fill="#FFF6EE"
+							rx="3.535"
+							ry="11.968"
+							transform="rotate(-45 31.774 31.774)"
+						/>
+						<ellipse
+							cx="31.774"
+							cy="16.816"
+							fill="#FFF6EE"
+							rx="3.535"
+							ry="11.968"
+							transform="rotate(45 31.774 16.816)"
+						/>
+						<ellipse
+							cx="16.816"
+							cy="31.775"
+							fill="#FFF6EE"
+							rx="3.535"
+							ry="11.968"
+							transform="rotate(45 16.816 31.775)"
+						/>
+						<ellipse
+							cx="24.347"
+							cy="36.032"
+							fill="#FFF6EE"
+							rx="3.535"
+							ry="11.968"
+						/>
+						<circle
+							cx="24.389"
+							cy="23.739"
+							r="6.179"
+							fill="#B77E49"
+						/>
+					</svg> -->
+				</button>
+			</div>
+		</section>
+
+		<footer>
+			<p>a job please.</p>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
 </html>
