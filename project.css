@@ -45,6 +45,7 @@ a {
 .about-container p,
 .about-container h2 {
 	text-align: center;
+	width: 100%;
 }
 
 .about-container img {

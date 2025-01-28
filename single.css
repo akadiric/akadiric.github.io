@@ -29,6 +29,7 @@
 	height: 100%;
 	object-fit: cover;
 	aspect-ratio: 16/9;
+	border-radius: 3px;
 }
 
 h3 {
@@ -42,6 +43,10 @@ h3 {
 h3,
 p {
 	text-align: center;
+}
+
+mark {
+	background-color: var(--custom-yellow);
 }
 
 @media (max-width: 720px) {

@@ -1,14 +1,9 @@
 :root {
 	--custom-green: #d6dc82;
 	--custom-white: #fcf9f6;
-	/* --custom-pink: #efa9b8; */
-	/* --custom-brown: #b77e49; */
 	--custom-black: #262628;
 	--custom-purple: #cecbec;
 	--custom-yellow: #ffed87;
-	/* --custom-yellow: #ffee93;
-	--custom-yellow-dark: #fee764; */
-	--custom-blue: #9cc4bc;
 }
 
 * {
@@ -47,10 +42,6 @@ main {
 	width: 100%;
 }
 
-section {
-	/* height: 1000px; */
-}
-
 .section-container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -76,7 +67,6 @@ section {
 }
 
 #Projects {
-	/* text-align: center; */
 	background-color: var(--custom-purple);
 	border-bottom: 1px solid var(--custom-black);
 }
@@ -85,7 +75,7 @@ section {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 90%;
 }
 
 .button-wrapper {
@@ -105,7 +95,6 @@ section {
 	border-radius: 100vmax;
 	transition: background-color 0.2s ease-in, color 0.2s ease-in;
 	text-decoration: none;
-	/* cursor: url(/images/bee.png), auto; */
 }
 
 .button:hover {
@@ -113,7 +102,12 @@ section {
 	color: var(--custom-white);
 }
 
-.footer {
+blockquote {
+	padding-top: 10px;
+	height: 90px;
+}
+
+footer {
 	flex-shrink: 0;
 	width: 100%;
 	min-height: 50px;
@@ -121,4 +115,11 @@ section {
 	background-image: url(/images/tulips.png);
 	background-repeat: repeat-x;
 	background-position: bottom;
+	text-align: center;
+}
+
+@media (max-width: 510px) {
+	footer {
+		font-size: 12.5px;
+	}
 }
