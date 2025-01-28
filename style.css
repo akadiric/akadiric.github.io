@@ -15,14 +15,15 @@
 	margin: 0;
 	padding-left: 0;
 	box-sizing: border-box;
+	cursor: url(/images/bee.png), auto;
 }
 
 body {
+	padding-top: 70px;
 	min-height: 100vh;
 	background-color: var(--custom-green);
 	display: flex;
 	flex-direction: column;
-	cursor: url(/images/bee.png), auto;
 	font-family: 'Poppins', serif;
 }
 
@@ -62,6 +63,13 @@ section {
 	border-bottom: 1px solid var(--custom-black);
 }
 
+.banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
 .button-wrapper {
 	display: flex;
 	justify-content: center;
@@ -79,7 +87,7 @@ section {
 	border-radius: 100vmax;
 	transition: background-color 0.2s ease-in, color 0.2s ease-in;
 	text-decoration: none;
-	cursor: url(/images/bee.png), auto;
+	/* cursor: url(/images/bee.png), auto; */
 }
 
 .button:hover {
