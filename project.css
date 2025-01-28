@@ -49,6 +49,7 @@ a {
 
 .about-container img {
 	height: 300px;
+	width: 100%;
 }
 
 @media (max-width: 920px) {

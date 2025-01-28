@@ -31,6 +31,14 @@
 	aspect-ratio: 16/9;
 }
 
+h3 {
+	padding-bottom: 20px;
+}
+
+.paragraph-text {
+	padding-bottom: 30px;
+}
+
 h3,
 p {
 	text-align: center;
