@@ -50,6 +50,18 @@ section {
 	margin: 0 auto;
 	padding: 20px;
 }
+
+#Hero {
+	min-height: 80vh;
+	align-items: center;
+	display: flex;
+}
+
+#Hero img {
+	object-fit: contain;
+	width: 100%;
+}
+
 #About {
 	/* text-align: center; */
 	background-color: var(--custom-yellow);
