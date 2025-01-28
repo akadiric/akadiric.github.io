@@ -8,6 +8,10 @@
 
 .double-media-container {
 	grid-template-columns: repeat(2, 1fr);
+	border-radius: 10px;
+	border: 1px solid var(--custom-black);
+	background-color: var(--custom-white);
+	display: grid;
 }
 
 #gesture-media .double-media-container > :first-child {
