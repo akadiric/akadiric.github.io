@@ -63,7 +63,7 @@ section {
 }
 
 #About {
-	/* text-align: center; */
+	text-align: center;
 	background-color: var(--custom-yellow);
 	border-top: 1px solid var(--custom-black);
 	border-bottom: 1px solid var(--custom-black);
