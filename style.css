@@ -10,7 +10,6 @@
 	margin: 0;
 	padding-left: 0;
 	box-sizing: border-box;
-	cursor: url(/images/bee.png), auto;
 }
 
 body {
@@ -20,6 +19,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	font-family: 'Poppins', serif;
+	cursor: url(/images/bee.png), auto;
 }
 
 a {

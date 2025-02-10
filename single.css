@@ -49,6 +49,29 @@ mark {
 	background-color: var(--custom-yellow);
 }
 
+a {
+	position: relative;
+}
+
+.web-link:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 0;
+	bottom: 0px;
+	background: black;
+	height: 1.5px;
+	transition-property: width;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-out;
+}
+
+.web-link:hover:after,
+.web-link:focus:after,
+.web-link:active:after {
+	width: 100%;
+}
+
 @media (max-width: 720px) {
 	.media-container,
 	.double-media-container {
