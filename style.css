@@ -19,7 +19,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	font-family: 'Poppins', serif;
-	cursor: url(/images/bee.png), auto;
+	cursor: url(/images/drawings/bee.png), auto;
 }
 
 a {
@@ -112,7 +112,7 @@ footer {
 	width: 100%;
 	min-height: 50px;
 	background-color: var(--custom-green);
-	background-image: url(/images/tulips.png);
+	background-image: url(/images/drawings/tulips.png);
 	background-repeat: repeat-x;
 	background-position: bottom;
 	text-align: center;
